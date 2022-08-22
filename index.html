@@ -11,16 +11,39 @@
 <body>
     <div class="windowAlign">
         <div class="gameWindow">
-            <div class="welcomeBox hidden">
-                <h1 class="is-size-3 has-text-primary">Welcome to the reaction time game</h1>
+            <div id="stage1" class="">
+                <div class="welcomeBox ">
+                    <h1 class="is-size-3 has-text-warning">Welcome to the reaction time game</h1>
+                    <h2 class="is-size-6 has-text-warning">In this game you need to click the screen as soon as the colour changes to green.</h2>
+                </div>
+                <div class="intialScreen">
+                    <button id="play" class="button is-outlined is-warning">
+                        Play!
+                    </button>
+                </div>
             </div>
-            <div class="intialScreen hidden">
-                <button class="button is-outlined is-primary">
-                    Play!
-                </button>
-            </div>  
+            <div id="stage2" class="intialScreen hidden">
+                <h1 class="is-size-1 has-text-light"> Wait for green...</h1>
+            </div>
+            <div id="stage3" class="intialScreen hidden">
+                <h1 class="is-size-1 has-text-light"> CLICK! </h1>
+            </div>
+            <div id="correct" class="intialScreen hidden">
+                <h1 id="reactTime" class="is-size-1 has-text-light"> correct </h1>
+            </div>
+            <div id="incorrect" class="hidden">
+                <div class="welcomeBox ">
+                    <h1 class="is-size-1 has-text-light">You clicked too early!</h1>
+                </div>
+                <div class="intialScreen">
+                    <button id="again" class="button is-outlined is-light">
+                        Try again!
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
     
 </body>
+<script src="./script.js" defer></script>
 </html>
