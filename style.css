@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.boldtitle{
+  font-weight: bold !important;
+  text-align: center;
+}
+
+
+.gameWindow{ 
+  outline-style:solid;
+  outline-color:black;
+  width: 1280px;
+  height: 720px;
+  background-color: #242424;
+
+}
+.windowAlign{
+  display:flex;
+  justify-content: center; 
+  flex-direction: row;
+/*   margin:auto; */
+  align-items: center;
+  height: 100%;
+}
+
+
+.larger{
+  height:50px
+}
+
+.intialScreen{
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center; 
+  flex-direction: row;
+  align-items: center;  
+};
+
+
+#buttonDiv{
+  display: flex;
+  justify-content: center; 
+  flex-direction: row;
+/*   margin:auto; */
+  align-items: center;
+  height: 100% 
+}
+.welcomeBox{
+  margin:40px;
+  width:1200px;
+  justify-content: center; 
+  text-align: center;
+
+}
+
+
+
+.backg{
+    background-color: #444444 !important;
+}
+
+.hidden{
+  display: none !important
+}
