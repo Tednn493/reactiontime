@@ -15,40 +15,18 @@ html, body {
   width: 1280px;
   height: 720px;
   background-color: #242424;
+  color:white
 
 }
 .windowAlign{
   display:flex;
   justify-content: center; 
-  flex-direction: row;
 /*   margin:auto; */
   align-items: center;
-  height: 100%;
+  height: 80%;
 }
 
 
-.larger{
-  height:50px
-}
-
-.intialScreen{
-  height:100%;
-  width:100%;
-  display:flex;
-  justify-content: center; 
-  flex-direction: row;
-  align-items: center;  
-};
-
-
-#buttonDiv{
-  display: flex;
-  justify-content: center; 
-  flex-direction: row;
-/*   margin:auto; */
-  align-items: center;
-  height: 100% 
-}
 .welcomeBox{
   margin:40px;
   width:1200px;
@@ -65,7 +43,11 @@ html, body {
   flex-direction: column;
   align-items: center;  
 }
-
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .backg{
     background-color: #444444 !important;
