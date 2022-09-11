@@ -11,7 +11,7 @@ let rtime= new Date()
 let xnum=0
 let clicked=false
 let tdiff=0
-const rndInt = randomIntFromInterval(5000, 10000)
+const rndInt = randomIntFromInterval(4000, 8000)
 console.log(rndInt)
 
 function hello(){
